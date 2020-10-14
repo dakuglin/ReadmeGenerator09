@@ -1,9 +1,9 @@
-# Example Project Title 
+# Readme Generator Project 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
 
-This is an example of read me generator
+This project creates a README.md file based on user input.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ npm i
 
 ## Usage 
 
-Information About Using the Repo Here Please
+Provide instructions and examples for use.
 
 ## License
 
@@ -33,7 +33,7 @@ MIT
 
 ## Contrubuting
 
-Information About Contributing to the Repo Here Please
+Provide guidlines for how other developers can contrubute.
 
 ## Tests
 
@@ -41,8 +41,8 @@ npm test
 
 ## Questions
 
-GitHub Username: Username Here Please
+GitHub Username: dakuglin
 GitHub Profile: https://github.com/dakuglin
 
-Please email me with additional questions at Email Here Please  
+Please email me with additional questions at dakuglin@gmail.com  
 
