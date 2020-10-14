@@ -55,8 +55,7 @@ const questions = [ // array of questions for user
     name: "license", //variable name
     choices: ["MIT", "APACHE 2.0", "BSD 3", "None"],
     },
-  
-   
+    
 ];
 
 inquirer //passing questions array to the inquirer package 
@@ -67,7 +66,7 @@ inquirer //passing questions array to the inquirer package
 
     console.log(data) //data object containging user questions 
 
-    fs.writeFile("README_GEN.md", generateMarkdown(data), function(err) {
+    fs.writeFile("sampleReadMe.md", generateMarkdown(data), function(err) {
 
         if (err) {
             return console.log(err);
@@ -82,6 +81,9 @@ inquirer //passing questions array to the inquirer package
 function writeToFile(fileName, data) {
     // fs.writeFile("READMETEST.md",questions, function(){
     //     console.log("something")
+
+
+    //do I need to use fs.writeFile("", "utf8")??????????????????????????????????
 
     //  })
 
