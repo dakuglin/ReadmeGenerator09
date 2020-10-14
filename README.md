@@ -2,9 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-* The generated README includes 1 badge that's specific to the repository.
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+
 
 ## Description 
 
@@ -27,15 +25,15 @@ This project requires the use of packages from npmjs.com. We are using the Inqui
 
 Video of the working code in the terminal and how to utilize the code. You can see how the user inputs the prompt information, and then a "sampleReadMe.md" is generated with all the provided information. The name of the README file being generated is called "sampleReadMe.md". 
 
-![Walkthrough Video](./readMeGenerator.gif)
+![Walkthrough Video](./readmegenerator.gif)
 
 
 ## Installation
 
 Steps to install my project include:
-*
-*
-*
+* npm install the dependencies 
+
+
 
 ## Usage 
 
@@ -52,7 +50,7 @@ All of the code was developed by Dana Kuglin. Information about her GitHub profi
 
 ## License
 
-MIT
+This project is licensed under MIT.
 
 ## Questions
 

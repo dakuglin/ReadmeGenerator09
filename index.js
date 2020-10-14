@@ -58,7 +58,10 @@ const questions = [ // array of questions for user
     
 ];
 
-inquirer //passing questions array to the inquirer package 
+// function to initialize program
+function init() {
+
+  inquirer //passing questions array to the inquirer package 
   .prompt(
    questions
   )
@@ -66,31 +69,18 @@ inquirer //passing questions array to the inquirer package
 
     console.log(data) //data object containging user questions 
 
-    fs.writeFile("sampleReadMe.md", generateMarkdown(data), function(err) {
+    fs.writeFile("sampleReadMe.md", generateMarkdown(data), function(error) {
 
-        if (err) {
-            return console.log(err);
+        if (error) {
+            return console.log(error);
         }
         
-        console.log("Added Title")
+        console.log("Successfully appended sampleReadMe.md file")
     })
+    
 
   });
 
-// function to write README file
-function writeToFile(fileName, data) {
-    // fs.writeFile("READMETEST.md",questions, function(){
-    //     console.log("something")
-
-
-    //do I need to use fs.writeFile("", "utf8")??????????????????????????????????
-
-    //  })
-
-}
-
-// function to initialize program
-function init() {
 
 }
 
