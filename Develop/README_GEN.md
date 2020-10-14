@@ -1,14 +1,20 @@
-# Please work
+# Project 9
 
 ## Description  
-Please please work
+Really cool homework
 
 ## Table of Contents
+
 * [Installation](#installation)
+
 * [Usage](#usage)
+
 * [License](#license)
+
 * [Contributing](#contributing)
+
 * [Tests](#tests)
+
 * [Questions](#questions)
   
 ## Installation
@@ -22,3 +28,10 @@ Please please work
 ## Tests
 
 ## Questions
+
+GitHub Username: dakuglin
+GitHub Link: https://github.com/dakuglin
+
+Please email me with any additional questions: dakuglin@gmail.com  
+
+
