@@ -1,9 +1,9 @@
 
 var inquirer = require("inquirer"); //require in inquirer package
 
-var generateMarkdown = require("./utils/generateMarkdown") //require in generate markdown
-
 var fs = require("fs"); //require in fs package
+
+var generateMarkdown = require("./utils/generateMarkdown") //require in generate markdown
 
 
 const questions = [ // array of questions for user
@@ -14,7 +14,7 @@ const questions = [ // array of questions for user
     },
     {
     type: "input", 
-    message: "Please add a project description: ", //question 2
+    message: "Please add a project description: ", //question 
     name: "description", //variable name
     },
     {
@@ -38,16 +38,16 @@ const questions = [ // array of questions for user
     name: "contributions", //variable name
     },
     {
-    type: "confirm", 
+    type: "input", 
     message: "Command needed to install dependencies: ", //question 
     name: "installation", //variable name
-    choices: ["npm i"],
+    default: "npm i",
     },
     {
-    type: "confirm", 
+    type: "input ", 
     message: "Command needed to run tests: ", //question 
     name: "test", //variable name
-    choices:["npm test"]
+    default: "npm test",
     },
     {
     type: "list", 
