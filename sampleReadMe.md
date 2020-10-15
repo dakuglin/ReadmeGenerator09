@@ -1,10 +1,10 @@
 # Readme Generator Project 
 
-[![License: MIT](https://imgshieldsio/badge/License-MIT-yellowsvg)](https://opensourceorg/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
 
-This project creates a README.md file based on user input.
+This project creates a README.md file based on user input
 
 ## Table of Contents
 
@@ -33,9 +33,9 @@ Provide instructions and examples for use.
 
 This project is licensed under MIT.
 
-## Contrubuting
+## Contributing
 
-Provide guidlines for how other developers can contrubute.
+Provide guidelines for how other developers can contrubute.
 
 ## Tests
 

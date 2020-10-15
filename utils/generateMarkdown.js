@@ -36,7 +36,7 @@ ${data.usage}
 
 This project is licensed under ${data.license}.
 
-## Contrubuting
+## Contributing
 
 ${data.contributions}
 
@@ -59,13 +59,13 @@ Please email me with additional questions at ${data.email}
 function licenseBadge(license) {  //function for markdown license badges 
 
   if(license === "MIT") { //if user selects MIT 
-    return `[![License: MIT](https://imgshieldsio/badge/License-MIT-yellowsvg)](https://opensourceorg/licenses/MIT)`;
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   } 
   else if (license === "APACHE 2.0") { //if user selects APACHE 20
-    return `[![License](https://imgshieldsio/badge/License-Apache%2020-bluesvg)](https://opensourceorg/licenses/Apache-20)`;
+    return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
   }
   else if (license === "BSD 3") { //if user selects BSD 3
-    return `[![License](https://imgshieldsio/badge/License-BSD%203--Clause-bluesvg)](https://opensourceorg/licenses/BSD-3-Clause)`
+    return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`
   } else if(license === "None") {
     return ``;
   }
