@@ -1,9 +1,10 @@
-# asdkhf 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Readme Generator Project 
+
+[![License: MIT](https://imgshieldsio/badge/License-MIT-yellowsvg)](https://opensourceorg/licenses/MIT)
 
 ## Description 
 
-laskdjf
+This project creates a README.md file based on user input.
 
 ## Table of Contents
 
@@ -21,19 +22,20 @@ laskdjf
   
 ## Installation 
 
-
+Steps to install project include:
+* npm i
 
 ## Usage 
 
-a;lsdk
+Provide instructions and examples for use.
 
 ## License
 
-MIT
+This project is licensed under MIT.
 
 ## Contrubuting
 
-laksdf
+Provide guidlines for how other developers can contrubute.
 
 ## Tests
 
@@ -41,8 +43,8 @@ npm test
 
 ## Questions
 
-GitHub Username: alskdjf
-GitHub Profile: https://github.com/dakuglin
+GitHub Username: dakuglin
+GitHub Profile: (https://github.com/dakuglin)
 
-Please email me with additional questions at a;lksdjf  
+Please email me with additional questions at dakuglin@gmail.com  
 

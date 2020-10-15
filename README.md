@@ -3,7 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-
 ## Description 
 
 The purpose of this assignent is to have code automatically generate a README file based on user input. The user is prompted with a list of questions/verifications and the file is created based off the answers. This code is useful because it ensures that no aspect of a quality README is missed or overlooked and also helps save a bit of time in generating the basic structure of the README. 
@@ -34,7 +33,6 @@ Steps to install my project include:
 * npm install the dependencies 
 
 
-
 ## Usage 
 
 ![Getting Started](./pictures/terminalCommands.PNG)
@@ -55,7 +53,7 @@ This project is licensed under MIT.
 ## Questions
 
 GitHub Username: dakuglin
-GitHub Profile: https://github.com/dakuglin
+GitHub Profile: (https://github.com/dakuglin)
 
 Please email me with additional questions at dakuglin@gmail.com  
 

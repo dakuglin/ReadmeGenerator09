@@ -5,7 +5,6 @@ var fs = require("fs"); //require in fs package
 
 var generateMarkdown = require("./utils/generateMarkdown") //require in generate markdown
 
-
 const questions = [ // array of questions for user
     {
     type: "input",
@@ -75,12 +74,10 @@ function init() {
             return console.log(error);
         }
         
-        console.log("Successfully appended sampleReadMe.md file")
+        console.log("Successfully wrote to sampleReadMe.md file")
     })
     
-
   });
-
 
 }
 
